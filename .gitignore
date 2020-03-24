@@ -1,0 +1,6 @@
+Eclipse-workspace/.metadata/
+Eclipse-workspace/.metadata/.plugins
+*.project
+*.cproject
+*.settings
+**.log

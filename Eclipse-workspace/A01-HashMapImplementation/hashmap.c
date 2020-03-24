@@ -56,6 +56,8 @@ struct ll* hm_create(int n){
 	return hm;
 }
 
+//Fail to create a deep copy of the string
+
 int hm_input(struct ll* hm, int n, char* key, int val){
 	int index = hashFunc(key, n);
 	if(!hm[index].head){
