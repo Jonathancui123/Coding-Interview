@@ -4,3 +4,4 @@ Eclipse-workspace/.metadata/.plugins
 *.cproject
 *.settings
 **.log
+.prefs
