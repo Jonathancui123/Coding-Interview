@@ -1,7 +1,9 @@
 Eclipse-workspace/.metadata/
 Eclipse-workspace/.metadata/.plugins
+__pycache__/
 *.project
 *.cproject
 *.settings
+*.pyc
 **.log
 .prefs
