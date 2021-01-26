@@ -1,0 +1,14 @@
+- can we have no parentheses? --> what are the default order of operations? &, ^, |
+- can we have nested parentheses? no
+- does putting parentheses around a single number constitute a new "way" of parenthesizing the equation? no
+
+
+
+1^(0|0|1) = false
+1^(0|0|1 = false
+
+1^(0|(0|1)) = false
+1^((0|0)|1) = false
+
+1 & (1 | 0) & 0 
+0 | (0 & 1 | 1 & 0) | 0
