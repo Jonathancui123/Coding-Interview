@@ -1,4 +1,4 @@
-# CYCLIC SORT, ARRAY
+# CYCLICE SORT, ARRAY, (Use indices to represent numbers)
 
 # Ex 1: [3,3,3] -> [1,2]
 
@@ -9,6 +9,8 @@ O(n) time, O(n) space [set]: Create a set initialized to contain [1,n] and remov
     We go through the set or the list and populate the final solution
 O(n) time, O(1) 'extra' space: Cyclic sort to put each number, i, into index i-1. If the duplicate already exists in i-1, let it rest in the current position --> Each index will hold the number (index + 1) if (index + 1) exists.
     Iterate through nums and find indices that don't hold index + 1 
+ANOTHER SOLUTION: Since each index can be one-to-one mapped to a number, and all numbers were positive, simpy set an index to negative to mark the number as found. Return the numbers represented by indices where the element is unmarked
+    
 '''
 
 
