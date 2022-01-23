@@ -19,4 +19,3 @@ class Solution:
         storage = []
         self.preOrder(root, 0, storage)
         return storage
-        
